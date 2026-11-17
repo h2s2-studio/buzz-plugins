@@ -14,7 +14,7 @@ Discover community-made plugins for Buzz Desktop. H2S2 Studio maintains this ind
 
 | Plugin | What it does | Install ref and requirements |
 | --- | --- | --- |
-| [Meetings](https://github.com/h2s2-studio/buzz-meetings) by H2S2 Studio | Voice rooms, live participants, cameras, and screen sharing in one dock app. [Screenshot](https://github.com/h2s2-studio/buzz-meetings/blob/v0.1.0/README.md) | [`v0.1.0` pilot](https://github.com/h2s2-studio/buzz-meetings/releases/tag/v0.1.0). Repository root. Requires the [Rust Meetings service and LiveKit](https://github.com/h2s2-studio/buzz-meetings/blob/v0.1.0/docs/deployment.md). Replaces the separate Voice channels and Screen sharing prototypes. |
+| [Meetings](https://github.com/h2s2-studio/buzz-meetings) by H2S2 Studio | Voice rooms, live participants, cameras, and screen sharing in one dock app. [Screenshot](https://github.com/h2s2-studio/buzz-meetings/blob/v0.1.1/README.md) | [`v0.1.1` pilot](https://github.com/h2s2-studio/buzz-meetings/releases/tag/v0.1.1). Repository root. Requires the [Rust Meetings service and LiveKit](https://github.com/h2s2-studio/buzz-meetings/blob/v0.1.1/docs/deployment.md). Replaces the separate Voice channels and Screen sharing prototypes. |
 
 ## Agents
 
