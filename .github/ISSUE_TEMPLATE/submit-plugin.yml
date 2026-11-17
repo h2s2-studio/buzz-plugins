@@ -1,0 +1,63 @@
+name: Submit a Buzz plugin
+description: Request a new listing or update an existing listing in the community catalog.
+title: "Plugin submission — "
+labels: ["plugin-submission"]
+body:
+  - type: input
+    id: plugin-name
+    attributes:
+      label: Plugin name
+      placeholder: The name shown in Buzz
+    validations:
+      required: true
+  - type: input
+    id: repository
+    attributes:
+      label: Public GitHub repository
+      placeholder: https://github.com/owner/repository
+    validations:
+      required: true
+  - type: input
+    id: ref
+    attributes:
+      label: Branch or tag
+      description: Leave blank if the built plugin is on the default branch.
+      placeholder: v0.1.0
+  - type: input
+    id: folder
+    attributes:
+      label: Plugin folder
+      description: Leave blank if manifest.json and plugin.js are at the repository root.
+  - type: dropdown
+    id: category
+    attributes:
+      label: Buzz category
+      options:
+        - Communication
+        - Agents
+        - Agent tools
+        - Developer tools & integrations
+        - People & communities
+        - Productivity
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What does the plugin do?
+      description: Provide a short description for the catalog.
+    validations:
+      required: true
+  - type: textarea
+    id: compatibility
+    attributes:
+      label: Compatibility and setup
+      description: List the Buzz versions or platforms you tested and any service or plugin dependencies.
+    validations:
+      required: true
+  - type: textarea
+    id: showcase
+    attributes:
+      label: Screenshot or demo
+      description: Attach an image or share a public demo link if available.
